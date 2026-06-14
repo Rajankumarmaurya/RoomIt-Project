@@ -60,7 +60,7 @@ export default function BookingPage() {
 
             <button
               onClick={searchBookings}
-              className="bg-blue-600 text-white px-6 rounded"
+              className="bg-blue-600 text-white px-6 rounded cursor-pointer"
             >
               Search
             </button>
@@ -105,7 +105,7 @@ export default function BookingPage() {
                       booking._id
                     )
                   }
-                  className="mt-4 bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded"
+                  className="mt-4 bg-red-600 hover:bg-red-700 text-white px-5 py-2 rounded "
                 >
                   Cancel Booking
                 </button>
